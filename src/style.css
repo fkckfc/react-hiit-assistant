@@ -1,0 +1,39 @@
+html{
+  font-family: 'Segoe UI Light';
+  background-color: black;
+  margin: 1rem 1rem;
+  height: 100%;
+}
+
+div {
+  background-color: black;
+}
+
+.title {
+  font-size: 25px;
+  color: cornflowerblue;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.display{
+  font-family: 'Segoe UI';
+  color: white;
+  text-transform: uppercase;
+}
+
+.clock {
+  font-size: 10vmax;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.activeClock {
+  color: orangered;
+}
+
+.restClock {
+  color: cornflowerblue;
+}
